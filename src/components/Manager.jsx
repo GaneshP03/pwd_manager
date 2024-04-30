@@ -129,6 +129,7 @@ const Manager = () => {
                   <th className="py-2">Website</th>
                   <th className="py-2">Username</th>
                   <th className="py-2">Password</th>
+                  <th className="py-2">Actions</th>
                 </tr>
               </thead>
               <tbody className="bg-green-100">
@@ -205,6 +206,22 @@ const Manager = () => {
                             ></lord-icon>
                           </div>
                         </div>
+                      </td>
+                      <td className="py-2 border border-white text-center min-w-32">
+                        <span className="cursor-pointer mx-2">
+                          <lord-icon
+                            src="https://cdn.lordicon.com/ogkflacg.json"
+                            trigger="hover"
+                            style={{"width":"25px","height":"25px"}}
+                          ></lord-icon>
+                        </span>
+                        <span className="cursor-pointer mx-2 ">
+                          <lord-icon
+                           src="https://cdn.lordicon.com/skkahier.json"
+                            trigger="hover"
+                            style={{"width":"25px","height":"25px"}}
+                          ></lord-icon>
+                        </span>
                       </td>
                     </tr>
                   );
