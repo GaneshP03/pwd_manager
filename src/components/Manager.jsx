@@ -79,7 +79,7 @@ const Manager = () => {
         theme="dark"
       />
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"></div>
-      <div className="  container px-40 myContainer">
+      <div className=" md:myContainer">
         <h1 className="text-4xl font-bold text-center">
           <span className="text-green-700">&lt;</span>
           <span>My</span>
@@ -97,7 +97,7 @@ const Manager = () => {
             onChange={handleChange}
             className="border border-green-400 w-full rounded-full px-4 py-1"
           />
-          <div className="flex  w-full justify-between gap-8">
+          <div className="flex flex-col md:flex-row w-full justify-between gap-8">
             <input
               type="text"
               placeholder="Username"
